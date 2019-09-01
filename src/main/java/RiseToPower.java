@@ -1,6 +1,6 @@
 public class RiseToPower {
     public static void main(String[] args) {
-        float base = 2.0f;
+        double base = 2.0f;
         int i;
 
         for (i = -10; i <10 ; i+=1) {
