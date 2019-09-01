@@ -1,7 +1,10 @@
+import campaign.Backpack;
+import campaign.Item;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class SelectionOfThings {
     public static void main(String[] args) {
         //Новый рюкзак на 5 литров
         Backpack backpack1 = new Backpack(5);
@@ -15,9 +18,7 @@ public class Main {
         list.add(new Item("Котелок", 1, 500));
 
         backpack1.calcBestCollect(list);
-
         list = backpack1.getBestCollect();
-
 
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i).getName() + " " + list.get(i).getPrise());

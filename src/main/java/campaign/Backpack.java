@@ -1,3 +1,5 @@
+package campaign;
+
 import java.util.ArrayList;
 import java.util.List;
 
