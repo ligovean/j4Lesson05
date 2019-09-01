@@ -1,9 +1,15 @@
 public class RiseToPower {
     public static void main(String[] args) {
+        float base = 2.0f;
+        int i;
 
-        for (int i = -10; i <10 ; i+=1) {
-            System.out.printf("2^%d = %f\n",i,toPower(2.0,i));
+        for (i = -10; i <10 ; i+=1) {
+            System.out.printf("%f^%d = %f\n",base,i,toPower(base,i));
        }
+
+       base = 0;
+        i=5;
+        System.out.printf("%f^%d = %f\n",base,i,toPower(base,i));
     }
 
     public static double toPower(double base, int pow){
